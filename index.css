@@ -1,0 +1,36 @@
+.background{
+    background-color: #0C2034;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.project-gif{
+    height: auto;
+    width: 15%;
+}
+
+.project-logo{
+    height: auto;
+    width: 10%;
+}
+
+.project-logo-2{
+    height: auto;
+    width: 35%;
+}
+
+.nunito {
+    font-family: "Nunito", nm, serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.font-color{
+    color: #b1b1b1;
+}
+
