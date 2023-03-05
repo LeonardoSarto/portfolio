@@ -14,7 +14,7 @@
             crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/fcba913e19.js" crossorigin="anonymous"></script>
     <nav class="navbar fixed-top background">
-        <div class="container-fluid">
+        <div class="container-fluid text-center">
             <div class="col-5 d-none d-lg-block">
                 <ul class="nav">
                     <li class="nav-item">
@@ -57,10 +57,10 @@
             </button>
             <div class="collapse navbar-collapse d-lg-none" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link text-white pointer" onclick="scrollToProjects()">Projetos</a>
-                    <a class="nav-link text-white pointer" onclick="scrollToContact()">Contato</a>
-                    <a class="nav-link text-white pointer" onclick="scrollToConhecimento()">Experiência</a>
+                    <a class="nav-link text-white active" onclick="scrollToHome()" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Home</a>
+                    <a class="nav-link text-white pointer" onclick="scrollToProjects()" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Projetos</a>
+                    <a class="nav-link text-white pointer" onclick="scrollToContact()" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Contato</a>
+                    <a class="nav-link text-white pointer" onclick="scrollToConhecimento()" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Experiência</a>
                     <div class="justify-content-evenly d-flex">
                         <a target="_blank" href="https://www.linkedin.com/in/leonardo-sarto-978b99219" type="button" class="btn btn-primary col-2">
                             <i class="fa-brands fa-linkedin-in"></i>
