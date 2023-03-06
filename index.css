@@ -70,15 +70,3 @@ img {
 .font-color {
     color: #b1b1b1;
 }
-
-.typewriter-cursor {
-    border-right: solid black;
-    animation:
-            blink-caret .5s step-end infinite;
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-}
