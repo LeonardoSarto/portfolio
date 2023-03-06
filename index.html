@@ -6,8 +6,9 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="icon" href="assets/sarto-logo-49.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 </head>
-<body class="background">
+<body onload="typeWriter()" class="background inter">
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
@@ -83,24 +84,11 @@
         </div>
     </nav>
     <br><br><br>
-    <div class="px-4">
-        <h1 class="text-white text-center nunito">
-            Olá seja bem-vindo ao meu portfólio de programador!
-            <br>
-            Meu nome é Leonardo Sarto e sou um programador dedicado e apaixonado pela criação de soluções de software eficientes e de alta qualidade.
-            <br>
-            Ao longo dos anos, adquiri uma ampla variedade de habilidades em diferentes áreas da programação, desde desenvolvimento web até análise de dados e inteligência artificial.
-            <br>
-            Este portfólio foi criado para compartilhar com você uma amostra do meu trabalho e mostrar as habilidades que posso oferecer como programador.
-            <br>
-            Aqui, você encontrará exemplos de projetos que eu criei, bem como informações sobre minhas habilidades técnicas e experiência profissional.
-            <br>
-            Se você está procurando um programador talentoso e experiente para ajudá-lo a criar soluções inovadoras para seus projetos, estou aqui para ajudar.
-            <br>
-            Sinta-se à vontade para explorar meu portfólio e entrar em contato comigo se tiver alguma dúvida ou quiser discutir uma possível colaboração.
-            <br>
-            Obrigado por visitar meu portfólio e espero ter a oportunidade de trabalhar com você em breve!
-        </h1>
+    <div class="px-4 pt-5">
+        <div class="typewriter-cursor">
+            <h1 id="title" class="text-white text-center">
+            </h1>
+        </div>
         <div id="projeto" class="text-center">
             <h1 class="text-white nunito">
                 Projetos
@@ -127,12 +115,12 @@
                 Contato
             </h1>
             <div class="text-white">
-                <img class="project-logo" src="assets/gmail-logo.png" alt="Gmail logo">
-                <h2 class="text-white nunito">
-                    <a href="mailto:leonardosarto1@hotmail.com?subject=Quero conhecer seu trabalho!">
-                        leonardosarto1@hotmail.com
-                    </a>
-                </h2>
+                <a target="_blank" href="mailto:leonardosarto1@hotmail.com?subject=Quero conhecer seu trabalho!">
+                    <img class="project-logo" src="assets/gmail-logo.png" alt="Gmail logo">
+                </a>
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=44999558134&text&type=phone_number&app_absent=0">
+                    <img class="project-logo" src="assets/whatsapp-logo.png" alt="Gmail logo">
+                </a>
             </div>
         </div>
         <div id="experiencia" class="text-center">
