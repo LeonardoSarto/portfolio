@@ -7,11 +7,6 @@ img {
     width: 100%;
 }
 
-.project-gif{
-    height: auto;
-    width: 100%;
-}
-
 @media (min-width: 576px) {
     .project-gif{
         height: auto;
