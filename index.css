@@ -64,8 +64,8 @@ img {
     width: 35%;
 }
 
-.nunito {
-    font-family: "Nunito", nm, serif;
+.inter {
+    font-family: "Inter", nm, serif;
 }
 
 .pointer {
@@ -74,4 +74,23 @@ img {
 
 .font-color {
     color: #b1b1b1;
+}
+/* GLOBAL STYLES */
+body {
+    background: #333;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.typewriter-cursor {
+    border-right: solid black;
+    animation:
+            blink-caret .5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
 }
