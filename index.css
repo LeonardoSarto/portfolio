@@ -70,3 +70,28 @@ img {
 .font-color {
     color: #b1b1b1;
 }
+
+nav {
+    box-shadow: 0 16px 31px 3px rgb(0 0 0 / 10%) !important;
+    backdrop-filter: blur(6px) !important;
+    background-color: rgba(12, 32, 52, 0.9);
+}
+
+.card {
+    width: 18rem !important;
+    height: 14rem !important;
+    transition: transform 250ms;
+    background-color: #0D3155 !important;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
+
+.card:hover > .card-body > .card-title{
+    color: #04D1D1;
+}
+
+.navbar {
+    transition: top 0.3s;
+}

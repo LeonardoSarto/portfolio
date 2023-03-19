@@ -26,3 +26,14 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
+
+var prevScrollpos = window.scrollY;
+window.onscroll = function() {
+    var currentScrollPos = window.scrollY;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementsByClassName("navbar")[0].style.top = "0";
+    } else {
+        document.getElementsByClassName("navbar")[0].style.top = "-200px";
+    }
+    prevScrollpos = currentScrollPos;
+}
