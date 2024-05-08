@@ -1,0 +1,9 @@
+.filledButton {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #313131;
+    color: #F8F8FF;
+    cursor: pointer;
+}
