@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: snow;
+    height: 82px;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
